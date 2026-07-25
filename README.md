@@ -10,7 +10,7 @@ End-to-end data science project forecasting daily retail sales for 1,115+ stores
 
 ## Live Demo
 
-🔗 **[Try the live dashboard](#)** — upload your own `train.csv`/`store.csv` and see forecasts on your own retail data instantly. *(Add your deployed Streamlit URL here after deployment — see "Deploy" below.)*
+🔗 **[Try the live dashboard](#)** — upload your own `train.csv`/`store.csv` and see forecasts on your own retail data instantly. *
 
 ## Overview
 
@@ -112,7 +112,7 @@ Public **Rossmann Store Sales** dataset — daily sales for drug stores across G
 
 ### Notebook
 ```bash
-git clone https://github.com/<your-username>/sales-forecasting-rossmann.git
+git clone https://github.com/NurMithu/sales-forecasting-rossmann.git
 cd sales-forecasting-rossmann
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
@@ -124,13 +124,6 @@ jupyter notebook Sales_Forecasting_Rossmann.ipynb
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-### Deploy the Dashboard for Free
-1. Push this repo to GitHub (public).
-2. Go to [share.streamlit.io](https://share.streamlit.io) → sign in with GitHub → **New app**.
-3. Select this repo, branch `main`, file path `app.py`.
-4. Click **Deploy** — you'll get a public link in ~2 minutes.
-5. Add that link to the "Live Demo" section above and to your portfolio site.
 
 ## Tech Stack
 
