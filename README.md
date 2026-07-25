@@ -10,7 +10,9 @@ End-to-end data science project forecasting daily retail sales for 1,115+ stores
 
 ## Live Demo
 
-🔗 **[Try the live dashboard](#)** — upload your own `train.csv`/`store.csv` and see forecasts on your own retail data instantly. *(Add your deployed Streamlit URL here after deployment — see "Deploy" below.)*
+🔗 **[Try the live dashboard](https://sales-forecasting-rossmann-2vkhappr8sgdidmbvkorvl.streamlit.app/)** — 
+
+
 
 ## Overview
 
@@ -112,7 +114,7 @@ Public **Rossmann Store Sales** dataset — daily sales for drug stores across G
 
 ### Notebook
 ```bash
-git clone https://github.com/<your-username>/sales-forecasting-rossmann.git
+git clone https://github.com/<NurMithu>/sales-forecasting-rossmann.git
 cd sales-forecasting-rossmann
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
