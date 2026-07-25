@@ -1,0 +1,47 @@
+{
+  "n_stores_sampled": 100,
+  "n_rows_used": 72918,
+  "date_range": [
+    "2013-01-29",
+    "2015-07-31"
+  ],
+  "test_period": [
+    "2015-06-19",
+    "2015-07-31"
+  ],
+  "results": [
+    {
+      "model": "Linear Regression (baseline)",
+      "MAE": 988.85,
+      "RMSE": 1348.65,
+      "RMSPE": 0.2232,
+      "R2": 0.8282
+    },
+    {
+      "model": "Random Forest",
+      "MAE": 690.94,
+      "RMSE": 959.94,
+      "RMSPE": 0.1499,
+      "R2": 0.913
+    },
+    {
+      "model": "XGBoost",
+      "MAE": 638.46,
+      "RMSE": 884.94,
+      "RMSPE": 0.1319,
+      "R2": 0.926
+    }
+  ],
+  "best_model": "XGBoost",
+  "promo_lift_pct": 39.0,
+  "top_features": {
+    "Sales_Roll28_Mean": 0.4401000142097473,
+    "Promo": 0.27129998803138733,
+    "Sales_Roll7_Mean": 0.08479999750852585,
+    "DayOfWeek": 0.04100000113248825,
+    "WeekOfYear": 0.021900000050663948,
+    "Day": 0.019200000911951065,
+    "Month": 0.018400000408291817,
+    "StoreType": 0.01600000075995922
+  }
+}
