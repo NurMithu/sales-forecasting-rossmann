@@ -10,7 +10,8 @@ End-to-end data science project forecasting daily retail sales for 1,115+ stores
 
 ## Live Demo
 
-🔗 **[Try the live dashboard](#)** — upload your own `train.csv`/`store.csv` and see forecasts on your own retail data instantly. *
+🔗 **[Try the live dashboard](#)** 
+
 
 ## Overview
 
